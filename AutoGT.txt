@@ -1,0 +1,658 @@
+<style type="text/css">
+	<!--
+html, body,h1, h2, h3, h4, h5, h6,a, abbr, acronym, em, p, strong, address, blockquote, cite, q,dd, dfn, dl, dt, li, 
+ol, ul,code, kbd, pre, samp, tt, var,big, del, ins, small,caption, table, tbody, td, tfoot, th, thead, tr,fieldset, iframe, img, menu 
+{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: 100%;
+  line-height: inherit;
+  text-align: inherit;
+  text-decoration: inherit;        
+  color: inherit;
+}
+html, body, input, option, optgroup, select 
+{ 
+  font-family: sans-erif; 
+} 
+  /* customizable */
+textarea, input, option, optgroup, select 
+{ 
+  font-size: 100%; 
+}
+ol, ul, menu 
+{ 
+  list-style: none; 
+}
+code, kbd, pre, samp, textarea, tt, var 
+{ 
+  font-family: monospace; 
+}
+table 
+{ 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+legend, hr 
+{ 
+  display: none; 
+}
+.clear 
+{
+  clear: both;
+  }
+strong
+{
+  font-weight: bold;
+}
+ul li ul 
+{
+  list-style: disc outside none;
+}
+img 
+{
+  vertical-align: bottom;
+}
+a 
+{ 
+  text-decoration: none; 
+  color:#000;
+}
+a:hover 
+{
+  text-decoration: none;
+}
+.clear 
+{ 
+  clear: bothfloat: none; 
+}
+#bauction 
+{
+  font-family:arial;
+  font-weight:normal;
+  font-size:19px;
+  background: #fff;
+}
+#esp_content 
+{
+  width: 1000px;
+  margin:0 auto;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+#tresc 
+{
+  padding-top:20px;
+}
+#opis 
+  {
+  margin-bottom:10px;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 5px#888; 
+  box-shadow: 0 0 5px #888;
+  padding-top:20px;
+  background:#fff;
+  adding-bottom:10px;
+}
+#opis > .tresc 
+{
+  color:#000;
+  padding: 0px 10px;
+  font-size:15px;
+  margin:8px 0px 8px 0px;
+}
+#opis > .zdjecia 
+{ 
+  text-align:center;
+}
+#opis #galeria 
+{
+  text-align:center;
+}
+#opis #galeria img 
+{
+  margin-top:10px;
+}
+.esp_left 
+{    
+  width:235px;
+  float:left;
+}
+.esp_right 
+{
+  width:745px;
+  float:right;
+}
+.esp_right #opis ul 
+{
+  padding-left:25px;
+}
+.esp_right #opis li 
+{
+  padding-left:28px;
+  font-size:15px;
+} 
+#naglowek_logo 
+{
+  overflow:hidden
+}
+.esp_column_full 
+{
+  padding:0px 
+}
+	-->
+	</style>
+  
+  <style> /* MENU STYLE */
+
+ul 
+{
+  float: left;
+  width: 100%;
+  margin: 0px;
+  list-style: none;
+}
+
+li a 
+{
+  display: block;
+  float: left;
+  text-align: center;
+  font-size: 1.2em;
+  width: 299px;
+  text-decoration: none;
+  color: #f6fff5;
+  background-color: #000000;
+  padding: 10px 15px;
+  margin: 20px 2px 2px 0px;
+  border: 1px solid navy;
+  border-radius: 3px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 8px;
+  box-shadow: 0px 2px 3px gray;
+  -moz-box-shadow: 0px 2px 3px gray;
+  -webkit-box-shadow: 0px 2px 3px gray;
+}
+
+li a:hover 
+{
+  color: #000000;
+  background: #f6fff5;
+  border: 1px solid #ff0505;
+}
+
+  </style>
+  
+	<div id="bauction" marginwidth="0" marginheight="0">    
+		<div id="esp_bg">    
+			<div id="esp_content">        
+				<div id="naglowek_logo">
+          
+          <!-- BANER -->
+          <img src="http://imgie.pl/uploads/autogt-logo.png" />
+        </div>        
+        
+			<!-- MENU	-->
+      
+        <div id="style_i_menu" class="">
+        
+          <nav>
+            <ul>
+              <li><a href="http://allegro.pl/listing/user/listing.php?us_id=45059940">Inne aukcje</a></li>
+              <li><a href="http://allegro.pl/show_user.php?search=Mojeautogt1&amp;search_scope=user">Komentarze</a></li>
+              <li><a href="http://allegro.pl/my_page.php?uid=45059940">O mnie</a></li>
+          </nav>
+        
+        </div>             
+        
+				<div id="tresc"> 
+               
+					<div class="esp_left">            
+            
+						<div id="style_i_kontakt" class=""> 
+                       
+							<div id="kontakt_style">            
+								
+                <style type="text/css">
+								
+                <!--
+#kontakt 
+{
+  width:235px;
+  margin-bottom:20px;
+  font-size:15px;
+  padding-top: 23px;
+}
+#kontakt .naglowek 
+{
+  color: #fff;
+  text-align:center;
+  font-family:'Georgia';
+  font-size:30px;
+  line-height:46px;
+  font-weight:bold;
+  font-style:italic;
+}
+#kontakt .zakonczenie 
+{
+  height:11px;
+}
+#kontakt .tresc 
+{
+  background: #fff;
+  padding:10px;
+  color:#000;
+  margin-top: 10px;
+}
+#kontakt .tresc ul 
+{
+  margin-bottom:20px;
+}
+#kontakt .lista_ikona
+{
+  width: 58px;
+  float: left;
+  height:52px;
+}
+#kontakt .lista_tresc
+{
+  width: 141px;
+  min-height:50px;
+  float: left;
+  margin-left: 16px;
+  line-height: 20px;
+  font-size:14px;
+}
+#kontakt  #tel_ikona 
+{
+  background: transparent url('http://imgie.pl/uploads/telefon-kom.png') top right no-repeat;
+}
+#kontakt #email_ikona 
+{
+  background: transparent url('http://imgie.pl/uploads/email.png') top right no-repeat;
+}
+#kontakt  #zegar_ikona 
+{
+  background: transparent url('http://imgie.pl/uploads/zegar.png') top right no-repeat;
+}
+#kontakt  #walizka_ikona 
+{
+  background: transparent url('http://imgie.pl/uploads/adres.png') top right no-repeat;
+}
+    -->
+								</style>            
+    </div>            
+            
+  <div id="kontakt">
+	 <div class="element">
+   
+   <!--- KONTAKT GRAFIKA -->
+   <img src="http://imgie.pl/uploads/kontakt.png" alt="http://imgie.pl/uploads/kontakt.png" />
+   </div>
+		<div class="tresc">
+		  <ul>
+			 <li style="font-weight:bold;font-size:19px;">
+        Masz pytania ?
+       </li>
+			 <li style="color:#00000;font-weight:bold;font-size:13px;">
+        zadzwoñ a na pewno pomo¿emy
+       </li>
+			 <li style="color:#00000;font-weight:bold;font-size:13px;">
+        Pon - Nd od 8.00 do 20.00
+       </li>
+			</ul>
+									
+      <div id="tel_ikona" class="lista_ikona element grafika nr_grafiki2" style="background-image: url('http://imgie.pl/uploads/telef
+on-kom.png');">&nbsp;
+      </div>
+			 <div class="lista_tresc">
+        <span style="font-weight: bold;">
+        Telefon
+        </span>
+       <br />
+				690 568 430
+       </div>
+				
+       <div class="clear">&nbsp;
+       </div>
+       
+			 <div id="email_ikona" class="lista_ikona element grafika nr_grafiki3" style="background-image: url('http://imgie
+.pl/uploads/email.png');">&nbsp;
+       </div>
+			
+       <div class="lista_tresc">
+        <span style="font-weight: bold;">
+        Email
+        </span>
+        <br />
+				mojeautogt@poczta.fm
+       </div>
+									
+       <div class="clear">&nbsp;
+       </div>
+									
+       <div id="zegar_ikona" class="lista_ikona element grafika nr_grafiki4" style="background-image: url('http://imgie
+.pl/uploads/zegar.png');">&nbsp;
+       </div>
+				
+       <div class="lista_tresc">
+        <span style="font-weight: bold;">
+        Godziny otwarcia
+        </span>
+        <br />
+			   Pon - Pt 7.30 - 15.30
+        </div>
+									
+        <div class="clear">&nbsp;
+        </div>
+				<div class="hr-line">&nbsp;
+        </div>
+				<div id="walizka_ikona" class="lista_ikona element grafika nr_grafiki5" style="background-image: url('http://imgie
+.pl/uploads/adres.png')">&nbsp;
+        </div>
+				<div class="lista_tresc">
+          <span style="font-weight: bold;">
+          Adres
+          </span>
+          <br />
+					<p>                            
+           Moje Auto GT
+          <br />
+					 Bobrowo #
+          <br />
+					 87-300 Brodnica
+          <br />
+				 </p>
+        </div>
+				<div class="clear">&nbsp;
+        </div>
+        </div>
+        </div>
+		<!-- koniec kontakt -->
+	      </div>            
+		
+            
+            
+		  <div id="style_i_wysylka" class="">            
+        <div id="wysylka_style">            
+				  <style type="text/css">
+					 <!--
+#wysylka 
+{
+  width:235px;
+  margin-bottom:px;
+  font-size:15px;
+}
+#wysylka .naglowek 
+{
+  color: #fff;
+  text-align:center;
+  font-family:'Georgia';
+  font-size:30px;
+  line-height:46px;
+  font-weight:bold;
+  font-style:italic;
+}
+#wysylka .zakonczenie 
+{
+  height:11px;
+}
+#wysylka .tresc 
+{
+  min-height:295px;
+  background: #fff;
+  padding:10px;
+  color:#000;
+  margin-top: 10px;
+}
+#wysylka .opis
+{
+  margin-bottom:40px;
+}
+#wysylka .naglowek-opcje-wysylki 
+{
+  margin-bottom:35px;
+  margin-top: 35px;
+}
+#wysylka .opcje-wysylki 
+{
+  width:200px;
+  height:50px;
+}
+#wysylka .opcje-wysylki.poczta 
+{
+  background: transparent url('http://imgie.pl/uploads/poczta.png') top center no-repeat;
+}
+#wysylka .oplaty 
+{
+  margin-top:20px;
+  margin-bottom:1px;
+}
+            -->
+          </style>            
+        </div>            
+             
+        <div id="wysylka"> 
+          <div class="element">
+          
+          <!--- WYSYLKA GRAFIKA -->
+            <img src="http://imgie.pl/uploads/wysylka_0d9bb.png" alt="http://imgie.pl/uploads/wysylka_0d9bb.png" />
+          </div>                    
+				  <div class="tresc">                        
+					<div class="opis">
+            <b>
+              Zamówienia z³o¿one do godziny 12.00 s¹ wysy³ane tego samego dnia
+            </b>
+          </div>
+				  <div class="naglowek-opcje-wysylki">
+            <span style="font-weight: bold;">
+              <p>
+                Expresowa wysy³ka !!!
+              </p>
+            </span>
+          </div>                            
+				  <div class="lista_kurierow">                                
+				  <div class="kurier">  
+					<div class="poczta opcje-wysylki element grafika nr_grafiki2">&nbsp;
+          </div>  
+          <ul class="oplaty">                                    
+						  <li>
+                Paczka - 18
+              </li>                                    
+							<li>
+                Paczka pobraniowa - 23
+              </li>  
+						</ul>
+           </div>                     
+        </div>                    
+        </div>              
+        </div>   
+      </div>            
+						          
+            
+						<div id="style_i_regulamin" class="">            
+						<div id="regulamin_style">            
+								
+              <style type="text/css">
+								<!--
+#regulamin 
+{
+  width:235px;
+  margin-bottom:20px;
+  font-size:15px;
+}
+#regulamin .naglowek 
+{
+  color: #fff;
+  text-align:center;
+  font-family:'Georgia';
+  font-size:30px;
+  line-height:46px;
+  font-weight:bold;
+  font-style:italic;
+}
+#regulamin .zakonczenie 
+{
+  height:11px;
+}
+#regulamin .tresc 
+{
+  background: #fff;
+  padding: 10px;
+  color:#000;
+  min-height:301px;
+  margin-top: 10px;
+}
+#regulamin p
+{
+  margin-bottom:21px;
+}
+								-->
+              </style>            
+            </div>            
+            
+						<div id="regulamin">
+						<div class="element">
+            
+            <!--- REGULAMIN GRAFIKA -->
+              <img src="http://imgie.pl/uploads/regulamin_c01b0.png" alt="http://imgie.pl/uploads/regulamin_c01b0.png" />
+            </div>
+						<div class="tresc">
+						  <p>
+                Zanim dokonasz zakupu wejdŸ na stronê 
+                  <a href="http://allegro.pl/sellerInfoFrontend/45059940/aboutSeller" style="color: #202cff"><b>o mnie</b></a> 
+                i zapoznaj siê z regulaminem. 
+                Dokonanie zakupu jest równoznaczne z jego akceptacj¹.
+              </p>
+              <p>
+                
+                <b>
+                  Na wszystkie czêœci udzielamy gwarancji rozruchowej
+                </b>
+                
+              </p>
+            </div>
+            </div>
+							<!--
+							koniec regulamin
+							-->
+						</div>            
+             
+	         </div>
+					 <div class="esp_right">            
+           <div id="style_i_banner" class="">
+           
+           <!--- DRUGI BANER -->
+            
+           </div>
+					 <div id="gora_opisu">&nbsp;
+           </div>            
+					 <div id="opis">            
+					 <div id="style_i_naglowek_opisu" class="">
+           
+           <!--- OPIS PRZEDMIOTU -->
+            <img src="http://imgie.pl/uploads/opis.png" alt="http://imgie.pl/uploads/opis.png" />
+           </div>            
+					 <div class="hr">&nbsp;
+           </div>            
+						<p class="tresc">      
+            
+  <style type="text/css">
+  <!--
+
+#table 
+{
+  text-align: justify; 
+  width: 560px;
+  font-size: 1em;
+  position: relative; left: 100px;
+}  
+#table .wers 
+{
+  background: #c5c5c5;
+  text-align: justify; 
+  width: 560px;
+}
+.gwa 
+{
+  padding-bottom: 15px;
+  font-size: 1.8em;
+  text-align: center;       
+  color: #ff0c0c;  
+}
+.przedauk {
+  padding-bottom: 15px;
+  font-size: 1.5em;
+  text-align: center;
+}
+    -->
+  </style>
+            <h1 class="gwa"> <b>14 dni gwarancji</b> </h1>
+              <h2 class="przedauk">Przedmiotem aukcji jest: </h2>
+              
+            
+              <table id="table" style="text-align: justify; width: 560px; font-size: 1em; position: relative; left: 100px;">
+              
+                <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">marka:</td><td class="wers" style
+="background: #c5c5c5; text-align: justify; width: 560px;">OPEL</td></tr>
+                <tr><td>model:</td><td>ASTRA</td></tr>
+                <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">wersja:</td><td class="wers" 
+style="background: #c5c5c5; text-align: justify; width: 560px;">H</td></tr>
+                <tr><td>lata produkcji:</td><td>1995-1996</td></tr>
+                <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">karoseria:</td><td class="wers" 
+style="background: #c5c5c5; text-align: justify; width: 560px;">HATHBACK</td></tr>
+                <tr><td>liczba drzwi:</td><td>3</td></tr>
+                <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">pojemnoœæ silnika:</td><td class
+="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">1,9</td></tr>
+                <tr><td>skrzynia biegów:</td><td>MANUALNA</td></tr>
+                <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">dodatki:</td><td class="wers" 
+style="background: #c5c5c5; text-align: justify; width: 560px;">URWANY SPRUSKIWACZ I BRAK ZAŒLEPKI ZDERZAKA</td></tr>
+                <tr><td>nr lakieru:</td><td>111-222-333-444</td></tr>
+                 <tr><td class="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">uwagi dodatkowe:</td><td class
+="wers" style="background: #c5c5c5; text-align: justify; width: 560px;">KATOWANY, NAKLEJKA FAKE TAXI</td></tr>
+                
+              </table>
+              
+                            
+            </p>    
+          
+          <!-- NAGLOWEK GALERI -->         
+					 <div id="style_i_naglowek_galerii" class="">
+           
+           <!--- GALERIA ZDJEC -->
+            <img src="http://imgie.pl/uploads/galeria_90226.png" alt="http://imgie.pl/uploads/galeria_90226.png" />
+           </div> 
+						<p id="galeria">
+            </p>
+            
+					 <div style="text-align:center;">  
+           
+           <!-- TU WSTAWIAC ZDJECIA -->  
+           
+            
+
+            
+            <!-- KONIEC GALERII!!!!!!!! -->
+           
+           </div>            
+						<p>&nbsp;
+            </p>            
+           </div>
+					 <div id="domkniecie_opisu">&nbsp;
+           </div> 
+           </div>            
+					 <div class="clear">&nbsp;
+           </div> 
+        
+					 <div id="style_i_banner_inne_aukcje" style="text-align:center;" class="">
+           
+           <!--- OSTATNI BANER -->
+            <img src="http://imgie.pl/uploads/baner-dol_557d7.png" alt="http://imgie.pl/uploads/baner-dol_557d7.png" />
+           </div>           
+           </div>       
+           </div>   
+           </div>
